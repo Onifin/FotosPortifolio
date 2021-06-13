@@ -1,0 +1,30 @@
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 60rem;
+  background: linear-gradient(180deg, rgba(70,63,59,1) 0%, rgba(219,185,165,1) 60%, rgba(227,200,185,0) 100%);
+}
+.Header a{
+  margin-top: 4rem;
+  cursor: pointer;
+  font-size: 3rem;
+  height: 4rem;
+  font-family: roboto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-bottom: 0.2rem solid black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: 0.5s;
+}
+.Header a:hover{
+  color: white;
+  border-bottom: 0.2rem solid white;
+  transition: 0.5s;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3.1rem;
+}

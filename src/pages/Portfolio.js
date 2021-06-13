@@ -1,7 +1,7 @@
-import styles from '../styles/HomePage.module.css';
 import Header from './components/Header';
+import styles from '../styles/Portfolio.module.css';
 
-export default function HomePage(){
+export default function Portfolio(){
   return(
     <>
       <Header/>
